@@ -1,6 +1,6 @@
 # vpn-scripts
 ## how to
-### Go to CA server and install git
+### Go to CA server and install git.
 ```
 apt update && apt install git -y
 git clone https://github.com/dumasti/vpn-scripts.git
