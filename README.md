@@ -5,7 +5,7 @@ Scripts for creating a VPN server and client certificates (1 month trial period)
 ```
 apt update && apt install git -y
 git clone https://github.com/dumasti/vpn-scripts.git
-cp -r vpn-scripts/create-vpn ~/vpn...
+cp -r vpn-scripts ~/vpn...     (otional)
 cd vpn.../
 ```
 ### Change vars in buildCA.sh
@@ -36,7 +36,7 @@ In the process of creating a certificate, a certificate number will be requested
 ```
 apt update && apt install git -y
 git clone https://github.com/dumasti/vpn-scripts.git
-cp -r vpn-scripts/create-vpn ~/vpn...
+cp -r vpn-scripts ~/vpn...     (otional)
 cd vpn.../
 ```
 
