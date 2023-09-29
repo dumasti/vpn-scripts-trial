@@ -1,4 +1,5 @@
 Scripts for creating a VPN server and client certificates (1 month trial period) 
+# First of all, read the user agreement!
 # vpn-scripts
 ## how to
 ### Go to CA server and install git.
@@ -31,6 +32,7 @@ In the process of creating a certificate, a certificate number will be requested
 ./vpn-client-add.sh <username>
 ```
 
+# В первую очередь прочитайте пользовательское соглашение!
 ## Инструкция для создания нового сервера vpn:
 ### Идем на CA сервер и устанавливаем git
 ```
