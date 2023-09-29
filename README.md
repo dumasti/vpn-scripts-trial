@@ -1,4 +1,5 @@
 Scripts for creating a VPN server and client certificates (1 month trial period) 
+#First of all, read the user agreement
 # vpn-scripts
 ## how to
 ### Go to CA server and install git.
