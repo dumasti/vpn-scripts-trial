@@ -8,7 +8,7 @@ if [ -d "$dir" ]
     then
     :
     else
-    mkdir $dir
+    mkdir -p $dir
 fi
 
 if [ -f $dir/logs.$month ]
