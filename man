@@ -9,3 +9,10 @@
 На сервер будет отправлена вся структура. Надо зайти на сервер и переместить структуру в директорию /etc/openvpn/ после сделать исполняемыми файлы в /etc/openvpn/vpnNAME_SERVER/bin/, настроить shorewall, ufw или iptables и запустить сервер.
 7. ./vpn-client-add.sh <name_user>
 В процессе создания сертификата будет запрошен номер сертификата, в зависимости от того что надо можно выбрать local - создается только туннель, или global - весь трафик идет через впн сервер.
+
+After transferring the configuration to the server, you need to place the folder in the openvpn directory and make the logging scripts executable:
+# mv /tmp/srv/* /etc/openvpn/
+# chmod +x /etc/openvpn/<vpn_name>/bin/*
+После переноса конфигурации на сервер необходимо поместить папку в директорию опенвпн и сделать скрипты для логирования исполняемыми:
+# mv /tmp/srv/* /etc/openvpn/
+# chmod +x /etc/openvpn/<vpn_name>/bin/*
