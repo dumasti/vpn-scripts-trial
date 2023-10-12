@@ -22,7 +22,7 @@ During the creation process there will be interactive questions, we answer them 
 The entire structure will be sent to the server. You need to go to the server and move the structure to the /etc/openvpn/ directory, then make executable files in /etc/openvpn/vpnNAME_SERVER/bin/, configure shorewall, ufw or iptables and start the server.
 ```
 mv /tmp/srv/* /etc/openvpn/
-chmod +x /etc/openvpn/vpnNAME_SERVER/bin
+chmod +x /etc/openvpn/vpnNAME_SERVER/bin/*
 systemctl enable openvpn@vpnNAME_SERVER --now
 ```
 
@@ -55,7 +55,7 @@ chmod +x *.sh
 На сервер будет отправлена вся структура. Надо зайти на сервер и переместить структуру в директорию /etc/openvpn/ после сделать исполняемыми файлы в /etc/openvpn/vpnNAME_SERVER/bin/, настроить shorewall, ufw или iptables и запустить сервер.
 ```
 mv /tmp/srv/* /etc/openvpn/
-chmod +x /etc/openvpn/vpnNAME_SERVER/bin
+chmod +x /etc/openvpn/vpnNAME_SERVER/bin/*
 systemctl enable openvpn@vpnNAME_SERVER --now
 ```
 
