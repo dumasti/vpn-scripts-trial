@@ -18,7 +18,6 @@ if [ -f $dir/logs.$month ]
         touch $dir/logs.$month
         echo "${message}" >> $dir/logs.$month
 fi
-
 exit 0
 
 
